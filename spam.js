@@ -1,7 +1,7 @@
-const delay = 0.5; //delay in seconds
-let i = 0; // counter
-const message = prompt("Insert the message:");
-const limit = prompt("How many times?") - 1;
+const delay = 0.5; 
+let i = 0; 
+const message = prompt("Insira a mensagem:");
+const limit = prompt("Quantas Vezes?") - 1;
 const spam = setInterval(() => {
     if (i >= limit) clearInterval(spam);
     window.InputEvent = window.Event || window.InputEvent;
